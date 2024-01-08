@@ -11,10 +11,9 @@ with CodeTimer('bebas buat penanda'):
         #do something
         pass
 #measure function
-@time_function   
-def search():
-   pass
 
+
+@time_function   
 def partition(array, little, big):
 
 	pivot = array[big]
