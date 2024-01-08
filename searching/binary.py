@@ -11,11 +11,12 @@ with CodeTimer('bebas buat penanda'):
         #do something
         pass
 #measure function
-@time_function   
-def search():
-   pass
+
+
+
 
 class binarysearch:
+    @time_function   
     def binary_search(self, nums: list[int], target: int) -> int:
 
         low, high = 0, len(nums) - 1
